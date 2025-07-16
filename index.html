@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Raksha Bandhan Surprise</title>
+  <title>Nikhil ch</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body class="unlock-page">
   <div class="container">
-    <h1>🎁 Raksha Bandhan Surprise 🎁</h1>
-    <p>To unlock your special surprise, enter the secret code below:</p>
+    <h1>🎁 Raksha Bandhan 🎁</h1>
+    <p>For something special, enter the secret code below:</p>
     <input type="text" id="codeInput" placeholder="Enter the code here..." />
     <button onclick="checkCode()">Unlock</button>
     <p id="errorMsg" class="error"></p>
@@ -18,13 +18,13 @@
   <script>
     function checkCode() {
       const input = document.getElementById("codeInput").value.trim().toLowerCase();
-      const correct = "bot"; // Change this to your actual code
+      const correct = "bot";
       const error = document.getElementById("errorMsg");
 
       if (input === correct) {
         window.location.href = "surprise.html";
       } else {
-        error.textContent = "Oops! Wrong code. Try again 💔";
+        error.textContent = "wrong code. Try again bot💔";
       }
     }
   </script>
